@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="Assets/style.css">
@@ -21,6 +21,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <!-- bg-primary adds that ugly border around the Greg reneris. Maybe do custom in CSS? -->
               <a class="navbar-brand" href="#">Gregory Reneris</a>
               <div class = "ml-auto"> 
 
@@ -52,35 +53,40 @@
                   
                   <div class="row">
                     <div class="col">
-                      <h3 class="my-3" id="portboard">About Me</h3>
+                      <h3 class="my-3" id="portboard">Contact</h3>
                       <hr>
                     </div>
                   </div>
                 <div class="row">
                   
-                    <div class="col-md-6 text-center">
-                      <p>
-                        
-                        <img class="rounded border img-fluid " src="Assets/Images/small profile - Copy.png"
-                        alt="Greg Reneris photo">
-                      </p>
+                    <div class="col text-center">
+                      <!-- PUT FORM HERE -->
+                      <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Gregory Reneris">
+                            
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="greg@reneris.com">
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlTextarea1"> Message </label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                      
+                          
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      
                     </div>
                     
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <p>
-                          My name is Greg Reneris. I'm a coding boot camp student right now, and I'm excited to work
-                          in the future as a web developer. My hobbies are tennis, skiing, and travel. I want to help
-                          make a positive impact and change in the world.
-                          <br>
-                          Growing up in Bellevue Washington, I've seen how dramatically technolgy has changed daily
-                          life over the past 20 years, and there really is no time like the present to learn more and
-                            get involved.
-                            <br>
-                            While working at Microsoft and Amazon, artificial intelligence and data analytics were
-                            hugely important to making informed business decisions. When I complete this course and
-                            enter the workforce, I look forward to helping businesses grow with technology.
+                          
                         </p>
-                      </div>
+                      </div> -->
                       
                     </div>
                     
