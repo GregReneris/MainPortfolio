@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image: url("assets/images/blue-snow.png");
     height: 100%;
     width: 100%;
@@ -9,7 +9,7 @@ body {
     background-image: url("assets/images/blue-snow.png");
     height: 100%;
     width: 100%;
-  }
+  } */
 
 #pimage {
     width: 200px;
@@ -109,3 +109,42 @@ hr {
     padding-left: 5px;
 
 } */
+
+
+.carousel { z-index: -99; } /* keeps this behind all content */
+
+.carousel .item {
+    position: fixed; 
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 100vw; height: 100vh;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.carousel .one {
+    background: url(../Assets/Images/fairycirclegroup1.JPEG);
+    background-size: cover;
+    -moz-background-size: cover;
+    height: auto;
+    width: auto;
+}
+.carousel .two {
+    background: url(../Assets/Images/obanphoto1.JPEG);
+    background-size: cover;
+    -moz-background-size: cover;
+    height: 10vh;
+    width: 10vw;
+}
+/* .carousel .three {
+    background: url(../Assets/Images/fashion1.JPEG);
+    background-size: cover;
+    -moz-background-size: cover;
+} */
+.carousel .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
