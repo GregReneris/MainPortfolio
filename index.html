@@ -11,25 +11,14 @@
         <link rel="stylesheet" href="Assets/style.css">
 </head>
 
-<body>
-  <div class="view" style="background-image: url('assets/Images/fairycirclegroup1.JPEG'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<body style="background-image: url('assets/Images/fairycirclegroup1.JPEG'); -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; " >
     
-    <div id="myCarousel" class="carousel container slide">
-            <div class="carousel-inner">
-                    <div class="active item one"></div>
-                    <div class="item two"></div>
-                    <div class="item three"></div>
-            </div>
-          </div>
-
-
           
-          <nav class="navbar navbar-expand navbar-light bg-custom">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">Gregory Reneris</a>
+          <nav class="navbar navbar-expand navbar-light bg-custom fixed-top">
+            <div class="container">
+
+            <div class="collapse navbar-collapse">
+              <a class="navbar-brand nav-text-color" href="#">Gregory Reneris</a>
               <div class = "ml-auto"> 
 
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -37,23 +26,20 @@
                     <a class="nav-link border-right" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link border-right" href="gallery.html">Portfolio</a>
+                    <a class="nav-link border-right nav-text-color" href="gallery.html">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    <a class="nav-link nav-text-color" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
                   </li>
                 </ul>
               </div>
               
-              <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
             </div>
+          </div>
           </nav>
           
           <div class="container vhadjust">
-            <div class="row bkgrdcolor rounded">
+            <div class="row bkgrdcolor rounded body-content">
               <div class="col">
 
                 <!-- <div class= "border bkgrdcolor"> -->
@@ -64,32 +50,35 @@
                       <hr>
                     </div>
                   </div>
-                <div class="row">
+                <div class="row prime-content">
                   
                     <div class="col-md-6 text-center">
                       <p>
                         
-                        <img class="rounded border img-fluid " src="Assets/Images/small profile - Copy.png"
+                        <img class="rounded border img-fluid profile-img" src="Assets/Images/small profile - Copy.png"
                         alt="Greg Reneris photo">
                       </p>
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-md-6"> 
+                      <div class="description-box" >
                         <p>
                           My name is Greg Reneris. I'm a coding boot camp student right now, and I'm excited to work
                           in the future as a web developer. My hobbies are tennis, skiing, and travel. I want to help
                           make a positive impact and change in the world.
                           <br>
+                          <br>
                           Growing up in Bellevue Washington, I've seen how dramatically technolgy has changed daily
                           life over the past 20 years, and there really is no time like the present to learn more and
                             get involved.
+                            <br>
                             <br>
                             While working at Microsoft and Amazon, artificial intelligence and data analytics were
                             hugely important to making informed business decisions. When I complete this course and
                             enter the workforce, I look forward to helping businesses grow with technology.
                         </p>
                       </div>
-                      
+                     </div> 
                     </div>
                     
                   </div>
@@ -99,7 +88,7 @@
             </div>
         </div>
 
-    <!-- </div> -->
+
     
 
 
@@ -135,6 +124,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
         <script src="script.js"></script>
+
 </body>
 
 </html>

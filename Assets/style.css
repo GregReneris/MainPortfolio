@@ -1,15 +1,3 @@
-/* body {
-    background-image: url("assets/images/blue-snow.png");
-    height: 100%;
-    width: 100%;
-    
-}
-
-.view {
-    background-image: url("assets/images/blue-snow.png");
-    height: 100%;
-    width: 100%;
-  } */
 
 #pimage {
     width: 200px;
@@ -33,15 +21,26 @@
     text-align: center;    
 }
 
+.nav-text-color {
+    color: black;
+}
+
+.nav-link {
+    color:black
+}
+
 .relativeimage {
     display: flex;
     justify-content: center;
 }
 
 .vhadjust {
-    height: 100vh;
-    margin-top: 2%;
+    /* height: 100vh; */
+    margin-top: 60px;
+    padding-top: 30px;
+    /* padding-top: 80px; */
 }
+
 
 .adjustfooter {
 position:fixed;
@@ -57,7 +56,7 @@ text-align: center;
 .bkgrdcolor {
 
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.6227533249627977) 28%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.6227533249627977) 58%, rgba(0,212,255,1) 100%);
 
 }
 
@@ -82,69 +81,38 @@ hr {
 
 }
 
-
-/* NAVBAR BACKGROUND RECOLOR */
-
-/* .bg-light {
-
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.6227533249627977) 28%, rgba(0,212,255,1) 100%);
-
-
-} */
+.prime-content {
+    margin-top: 30px;
+}
 
 
 .bg-custom{
     background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(223,70,0,1) 58%, rgba(236,240,52,0.6171510840664391) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(223,70,0,1) 58%, rgba(236,240,52,1) 100%);
+    height: 60px; 
 }
 
-/* 
-
-#smalltextadjust {
-
-@media
-
-    padding-right: 5px;
-    padding-left: 5px;
-
-} */
-
-
-.carousel { z-index: -99; } /* keeps this behind all content */
-
-.carousel .item {
-    position: fixed; 
-    top: 0; left: 0; bottom: 0; right: 0;
-    width: 100vw; height: 100vh;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
-
+.profile-img {
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.carousel .one {
-    background: url(../Assets/Images/fairycirclegroup1.JPEG);
-    background-size: cover;
-    -moz-background-size: cover;
-    height: auto;
-    width: auto;
-}
-.carousel .two {
-    background: url(../Assets/Images/obanphoto1.JPEG);
-    background-size: cover;
-    -moz-background-size: cover;
-    height: 10vh;
-    width: 10vw;
-}
-/* .carousel .three {
-    background: url(../Assets/Images/fashion1.JPEG);
-    background-size: cover;
-    -moz-background-size: cover;
-} */
-.carousel .active.left {
-    left:0;
-    opacity:0;
-    z-index:2;
-}
+
+.description-box {
+    background-color: rgba(31, 30, 30, 0.644);
+    padding-top: 2vh;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+    margin-right: 5%;
+    padding-bottom: 2vh;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .hrclass {
+    background-color: purple;
+    width: 60%;
+    opacity: 60%;
+    /* height: 12px; */
+    border-top: 1px solid black
+  }

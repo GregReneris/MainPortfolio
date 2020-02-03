@@ -15,3 +15,4 @@ The contact page is to provide a future employer an easy way to contact me.
 ## Portfolio page:
 
 This page exhibits my work so far, and is easily updated to include more exciting projects in the future!
+https://ciar4n.com/izmir/ was a big help styling the images!
