@@ -6,7 +6,7 @@
 I'm using the home page to describe a bit about myself and including a picture. Travel is a huge part of my life, so I wanted that to pop out immediately with the background.
 
 The tools I've used to create this page are html, css, and javascript.
-Bootstrap is the framework I've chosen to use. I incorporated a nav-bar and linked buttons to my other pages.
+Bootstrap is the framework I've chosen to use. I incorporated a nav-bar and linked buttons to my other pages. This site runs on ReactJS.
 
 ## Contact page:
 
